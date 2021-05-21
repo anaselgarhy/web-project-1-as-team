@@ -121,11 +121,12 @@ header{
     border-radius: 15px;
     text-align: center;
     background-color: #B2EBF2;
-    transform: all .6s ease-out;
+    transition: all 0.6s ease-in-out;
 }
 .return-home-pege-button a{
     text-decoration: none;
     color: #000;
+    transition:all 0.6s ease-in-out;
 }
 .return-home-pege-button div{
     width: 100%;
