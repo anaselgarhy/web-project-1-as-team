@@ -14,9 +14,6 @@ img{
 h1{
     text-align: center;
 }
-a{
-    margin: auto;
-}
 /* Main content styles */
 .main-content{
     width: 90%;
@@ -114,6 +111,30 @@ header{
 .about p:hover{
     right: -15%;
     
+}
+/* return-home-pege-button style */
+.return-home-pege-button{
+    width: 25%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #B2EBF2;
+    transform: all .6s ease-out;
+}
+.return-home-pege-button a{
+    text-decoration: none;
+    color: #000;
+}
+.return-home-pege-button div{
+    width: 100%;
+}
+.return-home-pege-button:hover{
+    background-color: #00BCD4;
+}
+.return-home-pege-button a:hover{
+    color: #ffff;
 }
 /* Footer stylse */
 footer{
