@@ -8,6 +8,15 @@ body{
     font-family: Tajawal, Times, serif;
     font-size: 25px;
 }
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+a{
+    margin: auto;
+}
 /* Main content styles */
 .main-content{
     width: 90%;
