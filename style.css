@@ -1,6 +1,10 @@
 /* This is all styles */
 /* Impurt main font family */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+/* All */
+*{
+    border-radius: 15px;
+}
 /* Body styles */
 body{
     color: #212121; /* Primary color of text */
@@ -56,6 +60,7 @@ header{
     text-align: center;
     padding: 14px 16px;
     transition: all 0.3s ease-out;
+    border-radius: 0;
 }
 .navbar a:hover{
     background-color: #B2EBF2;
@@ -111,6 +116,29 @@ header{
 .about p:hover{
     right: -15%;
     
+}
+/* abstract */
+.abstract{
+    position: relative;
+    top: -180px;
+    background-color: rgb(0, 0, 0, 5%);
+    border-radius: 15px;
+    transition: all 0.6s ease-in-out;
+    transition-delay: 0.2s;
+}
+.abstract:hover{
+    background-color: rgb(0, 0, 0, 35%);
+    color: rgb(255, 255, 255);
+}
+.abstract h2, p{
+    padding: 0 6px 0 6px;
+    text-align: center;
+}
+.abstract p{
+    margin-top: -1.3%;
+}
+.video-in-about-page{
+    margin-top: -13%;
 }
 /* return-home-pege-button style */
 .return-home-pege-button{
