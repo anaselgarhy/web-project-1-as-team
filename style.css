@@ -23,6 +23,8 @@ h1{
     width: 90%;
     margin: auto;
     border: 3px solid #00000014;
+    border-bottom-width: 0;
+    border-radius: 15px 15px 16px 16px;
     background-color: #ffff;
 }
 /* Chaild content styles */
@@ -80,7 +82,7 @@ header{
     margin-bottom: 18.5%;
     text-align: center;
     padding: 15px;
-    font-size: 55px;
+    font-size: 55px !important;
     border-radius: 40px;
     transition: all 0.6s ease-in;
 }
@@ -358,16 +360,28 @@ header{
 }
 /***************************************** Footer stylse *****************************************/
 footer{
+    width: 100%;
+    margin: auto;
+    margin-left: -3px;
     background-color: #00BCD4;
     color: #ffff;
+    border: 3px solid #00000014;
+    border-top-width: 0;
     border-radius: 0 0 15px 15px;
 }
-footer div{
-    margin-left: 2%;
+footer .social{
+    margin-left: 0.3%;
+    display: inline;
 }
 footer a{
     text-decoration: none;
 }
 footer img{
+    margin-top: 5px;
     width: 2.3%;
+}
+footer .copyright{
+    text-align: center;
+    display: inline;
+    margin-left: 70%;
 }
