@@ -296,9 +296,78 @@ header{
     background-color: #00BCD4;
     color: #fff;
 }
-/* Footer stylse */
-footer{
+/***************************************** Contact us page styles *****************************************/
+.contect {
+    background-color: rgb(34, 32, 32, 15%);
+    width: 76%;
+    margin: auto;
+}
+.contect.overlay {
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+}
+.contect h2 {
     text-align: center;
+    color: #0097A7;
+    font-size: 35px;
+}
+.contect span {
+    text-align: center;
+    color: #009688;
+    font-size: 35px;
+}
+.contect p {
+    left: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.contect form {
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.contect form input [type="text"] .contect form input [type="email"] {
+    width: 50%;
+}
+.contect form input [type="text"] {
+    margin-right: 5px;
+    padding-left: 10px;
+    width: 500px;
+}
+.contect form textarea {
+    margin-top: 20px;
+    width: 65%;
+}
+
+#div1 button {
+    background-color: #B2EBF2;
+    border-color: transparent;
+    color: #000;
+    transition: all 0.4s linear;
+}
+#div1 button:hover{
+    background-color: #00BCD4;
+    color: #fff;
+}
+#div2 a{
+    text-decoration: none;
+}
+#div2 img {
+    width: 4%;
+}
+/***************************************** Footer stylse *****************************************/
+footer{
     background-color: #00BCD4;
     color: #ffff;
+    border-radius: 0 0 15px 15px;
+}
+footer div{
+    margin-left: 2%;
+}
+footer a{
+    text-decoration: none;
+}
+footer img{
+    width: 2.3%;
 }
