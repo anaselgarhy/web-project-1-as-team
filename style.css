@@ -82,9 +82,11 @@ header{
     margin-bottom: 18.5%;
     text-align: center;
     padding: 15px;
-    font-size: 55px !important;
     border-radius: 40px;
     transition: all 0.6s ease-in;
+}
+.quote span{
+    font-size: 55px !important;
 }
 .quote:hover{
     background-color: rgb(0 0 0 / 22%);
