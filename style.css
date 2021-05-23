@@ -226,7 +226,76 @@ header{
 .about-book div{
     margin-left: 55%;
 }
+/***************************************** Login page styles *****************************************/
+.box {
+    position: relative;
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    margin-bottom: 75px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.box h2 {
+    color: #fff;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.box img {
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin: 0 30%;
+    margin-right: 0;
+    border-radius: 20%;
+}
+.box .inputBox {
+    position: relative;
+}
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #B2EBF2;
+    border-radius: 0;
+    outline: none;
+    background: transparent;
+}
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: 1.4s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+    top: -18px;
+    color: #00BCD4;
+    font-size: 12px;
+}
 
+.box .submit{
+    background: transparent;
+    border: none;
+    color: #000;
+    background-color: #B2EBF2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.4s linear;
+}
+.box .submit:hover{
+    background-color: #00BCD4;
+    color: #fff;
+}
 /* Footer stylse */
 footer{
     text-align: center;
