@@ -240,6 +240,7 @@ header{
     padding: 3px;
     border: 0;
     width: 48%;
+    transition: all 0.2s linear;
 }
 .about-book div button:hover{
     background-color: #00BCD4;
