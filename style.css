@@ -402,7 +402,7 @@ footer img{
     width: 2.3%;
 }
 footer .copyright{
-    text-align: center;
-    display: inline;
-    margin-left: 70%;
+    text-align: right;
+    display: inline-block;
+    width: 85%;
 }
