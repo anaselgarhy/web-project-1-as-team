@@ -226,6 +226,8 @@ header{
 .about-book h3{
     margin-bottom: -20px;
     text-align: center;
+    font-size: 25px;
+}
 }
 .about-book div{
     margin: auto;
