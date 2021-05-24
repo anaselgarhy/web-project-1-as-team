@@ -228,6 +228,8 @@ header{
     text-align: center;
     font-size: 25px;
 }
+.about-book p{
+    font-size: 23px;
 }
 .about-book div{
     margin: auto;
